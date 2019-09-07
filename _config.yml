@@ -1,69 +1,22 @@
-permalink: /:categories/:year/:month/:day/:title
+# Site settings
+title: Projeto Carambolo, o ano inteiro amarelo!
+description: Um projeto pela vida!
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: null
-markdown: kramdown
-extensions: [fenced_code_blocks]
-excerpt_separator: "<!--more-->"
-url:
-baseurl: ""
+# User settings
+username: Projeto Carambolo, o ano inteiro amarelo!
+user_description:
+user_title: Um projeto pela vida!
+email: projetocarambolo@gmail.com
+facebook_username: projetocarambolo
+instagram_username: projetocarambolo
+twitter_username: projetocarambolo
+github_username:  teresinahc
+gplus_username:  projetocarambolo
 
-data-ad-slot: 2973388149
-data-ad-client: ca-pub-9204963049240271
-google_ad_client: ca-pub-9204963049240271
+# Google-analytics
+google-analytics:
+  id: ""
 
-post_limit: 5
-
-
-title : Projeto Carambolo, o ano inteiro amarelo!
-tagline: vida, setembro, amarelo, psicologia, teresina, hacker, code
-author :
-  name : Teresina Hacker Clube
-  site: https://teresinahc.github.io/
-  description : Um projeto criado para salvar vidas!
-  image : social-image.png
-  email :
-  github : teresinahc
-  twitter :
-  facebook:
-  linkedin:
-  instagram:
-
-twitter_username:
-production_url :
-
-JB :
-  version : 0.3.0
-  BASE_PATH :
-
-
-  ASSET_PATH :
-
-  archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
-  atom_path : /atom.xml
-  rss_path : /rss.xml
-
-  comments :
-    provider : disqus
-    disqus :
-      short_name : jeky-new-age
-      num_posts: 5
-      width: 580
-      colorscheme: light
-
-  analytics :
-    provider : google
-    google :
-        tracking_id : 'UA-94080000-1'
-    getclicky :
-      site_id :
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
-    piwik :
-        baseURL : 'myserver.tld/piwik'
-        idsite : '1'
-
-  sharing :
-    provider : false
+exclude: ['package.json', 'src' , 'node_modules']
